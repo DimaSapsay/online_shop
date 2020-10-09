@@ -1,0 +1,55 @@
+уERROR:root:Login to the payment page
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2020 09:02:39] "[37mGET / HTTP/1.1[0m" 200 -
+ERROR:root:Login to the payment page
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2020 09:02:48] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2020 09:02:48] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2020 09:02:48] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2020 09:02:48] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2020 09:02:48] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/world/workprojects/online_store/app/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Login to the payment page
+ERROR:root:Create transaction: "id": 44, "amount": 100, 
+                         "currency": EUR, "description": Test
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2020 09:03:20] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/world/workprojects/online_store/app/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/world/workprojects/online_store/app/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/world/workprojects/online_store/app/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/world/workprojects/online_store/app/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/world/workprojects/online_store/app/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/world/workprojects/online_store/app/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Login to the payment page
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2020 09:37:21] "[37mGET / HTTP/1.1[0m" 200 -
+ERROR:root:Login to the payment page
+ERROR:root:Отправлены данные: url - https://pay.piastrix.com/en/pay, data - {'amount': '100', 'currency': '978', 'description': 'Тест', 'shop_id': '5', 'shop_order_id': '45', 'sign': 'a0e88a3acebd1301cc798744eb3419758817dfdde8722042a838fa2ccd811956'}
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2020 09:37:32] "[37mPOST / HTTP/1.1[0m" 200 -
+ERROR:root:Login to the payment page
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2020 09:38:45] "[37mGET / HTTP/1.1[0m" 200 -
+ERROR:root:Login to the payment page
+ERROR:root:Запрос: {'amount': '100', 'currency': '978', 'description': 'Тест', 'shop_id': '5', 'shop_order_id': '46', 'sign': '767cc8d8c3c42c9af7afbb6cb6ad3469a1052793a4199d60ba007fb969535dd3'}
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2020 09:38:54] "[37mPOST / HTTP/1.1[0m" 200 -
+ERROR:root:Login to the payment page
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2020 09:47:38] "[37mGET / HTTP/1.1[0m" 200 -
+ERROR:root:Login to the payment page
+ERROR:root:Запрос: {'amount': '100', 'currency': '978', 'description': 'Text', 'shop_id': '5', 'shop_order_id': '48', 'sign': 'bcd22a8d720b7fcef619d59408e8dbaa16bb81980ec26bc273c1a042b87444d9'}
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2020 09:48:00] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/world/workprojects/online_store/app/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Login to the payment page
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2020 09:50:19] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:root:Login to the payment page
+INFO:root:Запрос: {'payer_currency': '840', 'shop_amount': '200', 'shop_currency': '840', 'shop_id': '5', 'shop_order_id': '49', 'sign': '0237bde0a8770ef95be195c6738e011b93dc8379df22afad81f2dfa84f6a1764'}
+INFO:root:Ответ: {'data': {'created': 'Fri, 09 Oct 2020 09:50:27 GMT', 'id': 834470, 'lifetime': 43200, 'payer_account': None, 'payer_currency': 840, 'payer_price': 200.0, 'shop_amount': 200.0, 'shop_currency': 840, 'shop_id': 5, 'shop_order_id': '49', 'shop_refund': 200.0, 'url': 'https://wallet.piastrix.com/ru/bill/pay/GixrrrmlmtqmPhwb'}, 'error_code': 0, 'message': 'Ok', 'result': True}
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2020 09:50:27] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:root:Login to the payment page
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2020 09:50:34] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:root:Login to the payment page
+INFO:root:Запрос: {'amount': '300', 'currency': '643', 'payway': 'payeer_rub', 'shop_id': '5', 'shop_order_id': '50', 'sign': '4968c05340e76c40a1e62564c6ce448ac9ad22bb147c772c37f0fe277618569f'}
+INFO:root:Ответ: {'data': {'data': {'lang': 'ru', 'm_curorderid': '130007318', 'm_historyid': '1169404145', 'm_historytm': '1602226243', 'referer': 'https://payeer.com/merchant/?m_historyid=1169404145&m_historytm=1602226243&m_curorderid=130007318&lang=ru'}, 'id': 243721736, 'method': 'GET', 'url': 'https://payeer.com/api/merchant/process.php'}, 'error_code': 0, 'message': 'Ok', 'result': True}
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2020 09:50:43] "[37mPOST / HTTP/1.1[0m" 200 -
