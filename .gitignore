@@ -1,0 +1,5 @@
+/.idea/
+/logs/main.log
+/migrations/
+/app.db
+/config.py

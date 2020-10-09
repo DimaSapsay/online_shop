@@ -1,0 +1,13 @@
+{% extends "bootstrap/base.html" %}
+
+{% block content %}
+    <h1>Invoice</h1>
+    <form method="{{ method_ }}" action="{{ url }}">
+        Value1: <input name="lang" value="{{ data['lang'] }}" disabled/><br>
+        Value2: <input name="m_curorderid" value="{{ data['m_curorderid'] }}" disabled/><br>
+        Value3: <input name="m_historyid" value="{{ data['m_historyid'] }}" disabled/><br>
+        Value4: <input name="m_historytm" value="{{ data['m_historytm'] }}" disabled/><br>
+        Value5: <input name="referer" value=" {{ data['referer'] }}" disabled/><br><br>
+        <input type="submit"/>
+    </form>
+{% endblock %}
