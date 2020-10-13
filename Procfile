@@ -1,1 +1,0 @@
-web: flask db upgrade; gunicorn online_store:app
